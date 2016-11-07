@@ -16,10 +16,14 @@ Pretty much fully functional.
 Currently has issues with detecting check mate situtations - most likely source of error is interaction with the pawns.
 However since the user has the option to reset, if the kind isn't actually in check mate the game can just keep going :3
 
+See the screenshot images uploaded!
+
 #Hindsight
 The factory method is probably being abused here, probably a more efficient way to work with the different chess pieces.
 Toast messages could be more specific to indicate the type of error.
 Edge cases can probably be handled in a neater fashion, currently kind of a spaghetti monster.
 Good exercise for a first large scale coding project. 
 
-Android-Chess-Application/Screenshot_2016-11-06-20-57-04.png
+#Extensibility
+Highlight tiles available tiles where the current piece can move
+Create a single player mode with a pseudo AI
