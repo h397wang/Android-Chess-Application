@@ -21,3 +21,5 @@ The factory method is probably being abused here, probably a more efficient way 
 Toast messages could be more specific to indicate the type of error.
 Edge cases can probably be handled in a neater fashion, currently kind of a spaghetti monster.
 Good exercise for a first large scale coding project. 
+
+Android-Chess-Application/Screenshot_2016-11-06-20-57-04.png
