@@ -13,13 +13,12 @@ Graphical user interface allows for several features:
   
 #Results
 Pretty much fully functional.
-Currently has issues with detecting check mate situtations - most likely source of error is interaction with the pawns.
-However since the user has the option to reset, if the kind isn't actually in check mate the game can just keep going :3
+Current edgecase bug with detecting check mate situtations, caused by an interaction with the enemy pawn.
 
 See the screenshot images uploaded!
 
 #Hindsight
-The factory method is probably being abused here, probably a more efficient way to work with the different chess pieces.
+There was a lot of code repetition involved for the various types of chess pieces. A better use of inheritence would remove this effort.
 Toast messages could be more specific to indicate the type of error.
 Edge cases can probably be handled in a neater fashion, currently kind of a spaghetti monster.
 Good exercise for a first large scale coding project. 
