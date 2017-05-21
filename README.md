@@ -15,7 +15,11 @@ Graphical user interface allows for several features:
 Pretty much fully functional.
 Current edgecase bug with detecting check mate situtations, caused by an interaction with the enemy pawn.
 
-See the screenshot images uploaded!
+![alt text](https://github.com/h397wang/Android-Chess-Application/blob/master/Screenshot_2016-11-06-20-57-04.png)
+![alt text](https://github.com/h397wang/Android-Chess-Application/blob/master/Screenshot_2016-11-06-20-57-40.png)
+![alt text](https://github.com/h397wang/Android-Chess-Application/blob/master/Screenshot_2016-11-06-20-58-06.png)
+![alt text](https://github.com/h397wang/Android-Chess-Application/blob/master/Screenshot_2016-11-06-20-58-12.png)
+
 
 #Hindsight
 There was a lot of code repetition involved for the various types of chess pieces. A better use of inheritence would remove this effort.
